@@ -19,7 +19,7 @@ void Screen::createWindow(int& height, int& width) {
 		SDL_WINDOWPOS_UNDEFINED,
 		width,
 		height,
-		SDL_WINDOW_SHOWN);
+		0);
 	
 	if (!m_Screen)
 		std::cout<< "Erreur de création de la fenêtre: %s\n" << SDL_GetError() <<std::endl;

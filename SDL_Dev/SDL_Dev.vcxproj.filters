@@ -24,6 +24,18 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="ScreenHandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Biome.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -35,9 +47,33 @@
     <ClInclude Include="Sprite.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="ScreenHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Biome.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Decor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="ressources\nyancat.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ressources\prri.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ressources\eau.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ressources\foret.bmp">
       <Filter>Fichiers de ressources</Filter>
     </Image>
   </ItemGroup>
